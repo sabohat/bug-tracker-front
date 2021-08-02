@@ -9,7 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
      
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center mt-5">
+      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center my-5">
         <h1 className="text-6xl font-bold">
           Welcome to{' '}
           <a className="text-purple-500" href="https://nextjs.org">
@@ -19,14 +19,14 @@ export default function Home() {
 
         <p className="mt-3 text-2xl">
           Created by{' '}
-          <span className="bg-purple-500 p-1 rounded-lg text-white">Sabohat and Hadicha</span>
+          <span className="bg-yellow-500 p-1 rounded-lg text-white">Sabohat and Hadicha</span>
         </p>
 
         <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
         <Link href="/login">
            <a
             
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-yellow-600 focus:text-yellow-600"
           >
             <h3 className="text-2xl font-bold">Login &rarr;</h3>
             <p className="mt-4 text-xl">
@@ -39,7 +39,7 @@ export default function Home() {
 <Link href="/signup">
           <a
             
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-yellow-600 focus:text-yellow-600"
           >
             <h3 className="text-2xl font-bold">Signup &rarr;</h3>
             <p className="mt-4 text-xl">
@@ -51,7 +51,7 @@ export default function Home() {
 
           <a
             href="https://github.com/vercel/next.js/tree/master/examples"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-yellow-600 focus:text-yellow-600"
           >
             <h3 className="text-2xl font-bold">Demo &rarr;</h3>
             <p className="mt-4 text-xl">
@@ -63,7 +63,7 @@ export default function Home() {
 
           <a
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-yellow-600 focus:text-yellow-600"
           >
             <h3 className="text-2xl font-bold">About US &rarr;</h3>
             <p className="mt-4 text-xl">
