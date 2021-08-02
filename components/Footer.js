@@ -1,2 +1,8 @@
 const Footer = () => {
-  return()}
+  return (
+    <>
+      <p>Hii</p>
+    </>
+  );
+};
+export default Footer;

@@ -1,17 +1,14 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Navbar from '../components/Navbar'
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
       <Head>
-        <title>Create Next App</title>
+        <title>Bug tracker</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header>
-        <Navbar/>
-</header>
+     
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center mt-5">
         <h1 className="text-6xl font-bold">
           Welcome to{' '}
