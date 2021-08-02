@@ -1,10 +1,10 @@
-import LoginInput from "../../components/login/LoginForm"
+import LoginForm from "../../components/pages/login/LoginForm"
 
 const Login = () => {
   return (
     <div className="bg-grey-lighter min-h-screen flex justify-center items-center">
    
-    <LoginInput/>
+    <LoginForm/>
     </div>
   )}
 
