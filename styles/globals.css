@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 .input-field {
- @apply outline-none block border border-gray-300 w-full rounded;
+ @apply outline-none block border border-gray-300 w-full rounded p-3 focus:border-green-500;
+}
+
+/* BUttons */
+.button-basic {
+  @apply w-full text-center py-3 rounded bg-green-500 text-white transition duration-300 hover:bg-green-600 focus:outline-none;
 }
