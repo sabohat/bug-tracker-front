@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
+
+
 const SignupForm = () => {
   const router = useRouter()
 
@@ -39,6 +41,14 @@ const SignupForm = () => {
             placeholder="Email"
             required
           />
+          <label>Format: 90 123 45 67</label>
+          <input
+            type="text"
+            className="input-field mb-4"
+            name="phone"
+            placeholder="Phone Number"
+            required
+          />
 
           <input
             type="password"
@@ -50,7 +60,6 @@ const SignupForm = () => {
           <input
             type="password"
             className="input-field mb-4"
-            name="confirm_password"
             placeholder="Confirm Password"
             required
           />
@@ -82,7 +91,7 @@ const SignupForm = () => {
 
         <div className="text-gray-500 mt-6">
           Do you have an account?{" "}
-          <Link  href="/login"><a
+          <Link  href="/users/login"><a
             className="no-underline border-b border-blue-500 text-blue-500"
            
           >
@@ -92,6 +101,7 @@ const SignupForm = () => {
           
         </div>
       </div>
+      
     </div>
   );
 };

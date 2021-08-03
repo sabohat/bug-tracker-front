@@ -1,19 +1,19 @@
-import Link from 'next/link'
-import { useRouter } from 'next/router'
+import Link from "next/link";
+import { useRouter } from "next/router";
 const LoginForm = () => {
-  const router = useRouter()
+  const router = useRouter();
 
   const handleClick = (e, path) => {
-   e.preventDefault()
+    e.preventDefault();
 
     if (path === "/about") {
       console.log("I clicked on the About Page");
-      // then you can: 
+      // then you can:
       // router.push(path)
     }
     if (path === "/posts") {
       console.log("I clicked on the Posts Page");
-      // then you can: 
+      // then you can:
       // router.push(path)
     }
   };
@@ -39,12 +39,8 @@ const LoginForm = () => {
             placeholder="Password"
             required
           />
-         
 
-          <button
-            type="submit"
-            className="button-basic my-1"
-          >
+          <button type="submit" className="button-basic my-1">
             Create Account
           </button>
 
@@ -55,7 +51,8 @@ const LoginForm = () => {
               href="#"
             >
               Terms of Service
-            </a>{"  "}
+            </a>
+            {"  "}
             and{" "}
             <a
               className="no-underline border-b border-gray-700 text-gray-700"
@@ -68,14 +65,11 @@ const LoginForm = () => {
 
         <div className="text-gray-500 mt-6">
           Do you have an account?{" "}
-          <Link  href="/signup" ><a 
-            className="no-underline border-b border-blue-500 text-blue-500"
-           
-          >
-            Sign up
-          </a></Link>
-          
-          
+          <Link href="/users/signup">
+            <a className="no-underline border-b border-blue-500 text-blue-500">
+              Sign up
+            </a>
+          </Link>
         </div>
       </div>
     </div>

@@ -12,7 +12,7 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center my-5">
         <h1 className="text-6xl font-bold">
           Welcome to{' '}
-          <a className="text-purple-500" href="https://nextjs.org">
+          <a className="text-purple-500" href="#">
             Bug Tracker!
           </a>
         </h1>
@@ -23,7 +23,7 @@ export default function Home() {
         </p>
 
         <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-        <Link href="/login">
+        <Link href="/users/login">
            <a
             
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-yellow-600 focus:text-yellow-600"
@@ -36,7 +36,7 @@ export default function Home() {
         </Link>
 
         
-<Link href="/signup">
+<Link href="/users/signup">
           <a
             
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-yellow-600 focus:text-yellow-600"
