@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { useRouter } from 'next/router'
-
+import { useRouter} from 'next/router'
+import { useState } from 'react'
 
 
 const SignupForm = () => {
@@ -20,6 +20,10 @@ const SignupForm = () => {
       // router.push(path)
     }
   };
+
+
+}
+
 
   return (
     <div className="flex flex-col">
@@ -46,8 +50,11 @@ const SignupForm = () => {
             type="text"
             className="input-field mb-4"
             name="phone"
+            value={phoneInput}
             placeholder="Phone Number"
             required
+
+            onChange={handlePhoneInput}
           />
 
           <input
@@ -60,8 +67,8 @@ const SignupForm = () => {
           <input
             type="password"
             className="input-field mb-4"
-            placeholder="Confirm Password"
             required
+            
           />
 
           <button
