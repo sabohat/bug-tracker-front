@@ -28,7 +28,7 @@ const SideBar = ({additionalMenuList, link}) => {
               Projects
             </a>
             <a
-            key='key_projects'
+            key='key_tickets'
               href={`${link}\\tickets`}
               className="block py-2.5 px-4 rounded transition duration-200 hover:bg-purple-600 hover:text-white"
             >
