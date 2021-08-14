@@ -10,3 +10,12 @@
 .button-basic {
   @apply w-full text-center py-3 rounded bg-green-500 text-white transition duration-300 hover:bg-green-600 focus:outline-none;
 }
+
+.statistics-card {
+  @apply bg-purple-400  shadow-lg rounded-md flex items-center justify-between p-3 
+  border-b-4 border-purple-600 text-white font-medium hover:cursor-pointer;
+}
+
+.statistics-svg {
+  @apply stroke-current text-purple-700 transform transition-transform duration-500 ease-in-out
+}
